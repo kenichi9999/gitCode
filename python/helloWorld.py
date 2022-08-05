@@ -1,5 +1,12 @@
 
+
 # コメント
+def unko_funbaru(arg):
+    if (arg < 10):
+        return "Huuuuuuu!"
+    else:
+        return "yabai"
+
 
 x='123'
 print(x)
@@ -23,3 +30,13 @@ for i  in range(10):
          print("{} is even".format(i))
      else:
          print("{} is avan".format(i))
+
+
+unko = 'Hello world'
+unko_length = 5
+unko_times = 5.5
+
+print(type(unko))
+print(type(unko_length))
+print(type(unko_times))
+print(unko_funbaru(9))

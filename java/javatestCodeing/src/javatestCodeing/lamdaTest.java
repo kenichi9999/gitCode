@@ -11,6 +11,10 @@ public class lamdaTest {
 	public static void main(String[] args) throws Exception{
 		// TODO 自動生成されたメソッド・スタブ
 		
+		System.out.println("今日の運勢はなんと" + fortune.getresult()+ "です。");
+		
+		
+		
 		/* xmlファイルを読み込んでみたい */
 		DocumentBuilderFactory DF = DocumentBuilderFactory.newInstance();
 		DocumentBuilder DB = DF.newDocumentBuilder();

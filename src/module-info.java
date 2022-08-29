@@ -1,0 +1,2 @@
+module javaproject_wk {
+}
